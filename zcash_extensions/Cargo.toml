@@ -4,12 +4,12 @@ description = "Zcash Extension implementations & consensus node integration laye
 version = "0.0.0"
 authors = ["Jack Grigg <jack@z.cash>", "Kris Nuttycombe <kris@z.cash>"]
 homepage = "https://github.com/zcash/librustzcash"
-repository = "https://github.com/zcash/librustzcash"
+repository = "https://github.com/mwcproject/librustzcash"
 license = "MIT OR Apache-2.0"
 edition = "2018"
 
 [dependencies]
-blake2b_simd = "0.5"
+blake2b_simd = "1"
 zcash_primitives = { version = "0.4.0", path = "../zcash_primitives", features = ["zfuture"] }
 
 [dev-dependencies]

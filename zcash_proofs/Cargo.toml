@@ -6,7 +6,7 @@ authors = [
     "Jack Grigg <jack@z.cash>",
 ]
 homepage = "https://github.com/zcash/librustzcash"
-repository = "https://github.com/zcash/librustzcash"
+repository = "https://github.com/mwcproject/librustzcash"
 readme = "README.md"
 license = "MIT OR Apache-2.0"
 edition = "2018"
@@ -16,7 +16,7 @@ all-features = true
 
 [dependencies]
 bellman = { version = "0.8", default-features = false, features = ["groth16"] }
-blake2b_simd = "0.5"
+blake2b_simd = "1"
 bls12_381 = "0.3.1"
 byteorder = "1"
 directories = { version = "3", optional = true }
