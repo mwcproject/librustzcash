@@ -4,6 +4,7 @@ description = "The Equihash Proof-of-Work function"
 version = "0.3.0"
 authors = ["Jack Grigg <jack@z.cash>"]
 homepage = "https://github.com/zcash/librustzcash"
+repository = "https://github.com/mwcproject/librustzcash"
 repository.workspace = true
 license.workspace = true
 edition.workspace = true
