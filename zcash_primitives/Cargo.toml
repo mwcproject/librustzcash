@@ -1,5 +1,5 @@
 [package]
-name = "zcash_primitives"
+name = "mwc-zcash_primitives"
 description = "Rust implementations of the Zcash primitives"
 version = "0.4.0"
 authors = [
