@@ -6,7 +6,6 @@ authors = [
     "Jack Grigg <jack@z.cash>",
 ]
 homepage = "https://github.com/zcash/librustzcash"
-repository = "https://github.com/mwcproject/librustzcash"
 repository.workspace = true
 readme = "README.md"
 license.workspace = true
